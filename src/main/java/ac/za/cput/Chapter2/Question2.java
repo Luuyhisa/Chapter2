@@ -2,12 +2,13 @@ package ac.za.cput.Chapter2;
 
 public class Question2 implements InterfacewithoutSpringframework {
     public String sayYourName() {
-        System.out.println("Lungisa");
+       // System.out.println("Lungisa");
 
-        return "Lungisa";
+        return "25 M.Lungisa";
     }
     public int howOldAreYou() {
-        System.out.println("18");
-        return 18;
+        int x;
+        x = 4;
+        return x;
     }
 }

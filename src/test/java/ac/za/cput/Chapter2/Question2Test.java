@@ -10,11 +10,14 @@ public class Question2Test {
     @Test
     public void sayYourName() {
         Question2 name = new Question2();
-        Assert.assertEquals("Lungisa",name.sayYourName());
+        CollectionListSetMap QWE = new CollectionListSetMap();
+        Assert.assertEquals(QWE.myCollection().get(2),name.sayYourName());
     }
     @Test
     public void howOldAreYou() {
         Question2 age = new Question2();
-        Assert.assertEquals(18,age.howOldAreYou());
+        CollectionListSetMap QWE = new CollectionListSetMap();
+        QWE.myCollection().indexOf(3);
+        Assert.assertEquals(QWE.MySet().size(),age.howOldAreYou());
     }
 }
