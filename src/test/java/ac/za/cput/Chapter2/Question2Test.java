@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Question2Test {
-
     @Test
     public void sayYourName() {
         Question2 name = new Question2();

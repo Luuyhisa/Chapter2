@@ -7,8 +7,7 @@ public class Question2 implements InterfacewithoutSpringframework {
         return "25 M.Lungisa";
     }
     public int howOldAreYou() {
-        int x;
-        x = 4;
+        int x;x = 4;
         return x;
     }
 }
